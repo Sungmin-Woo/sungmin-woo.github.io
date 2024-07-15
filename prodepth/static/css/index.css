@@ -116,7 +116,7 @@ body {
     background-color: #bbb;
     display: flex;
     flex-direction: column;
-    height: calc(100% - 200px);
+    height: calc(100% - 70px);
     margin-top: 0;
     margin-left: 5px;
     margin-right: 5px;
@@ -152,7 +152,7 @@ body {
 }
 
 #results-carousel-horizontal .twentytwenty-container {
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 640 / 192;
 }
 
 #results-carousel-vertical .twentytwenty-container {
