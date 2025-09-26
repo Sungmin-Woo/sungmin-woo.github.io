@@ -21,7 +21,7 @@
                 <name>Sungmin Woo</name>
               </p>
               <p>
-                I am a Ph.D candidate at <a href="https://www.yonsei.ac.kr">Yonsei University</a>, Seoul, Korea.
+                I received my Ph.D. at <a href="https://www.yonsei.ac.kr">Yonsei University</a>, Seoul, Korea.
               </p>
               <p>
                 My research mainly focuses on 3D computer vision tasks such as depth estimation, point cloud processing, neural rendering, and motion prediction.
@@ -38,9 +38,11 @@
                 <a href="https://scholar.google.com/citations?user=q1BRGh0AAAAJ&hl=ko">Google Scholar</a> &nbsp
               </p>
             </td>
+			<!-- <p>  
             <td style="padding:2.5%;width:40%;max-width:40%">
               <img style="width:100%;max-width:100%" alt="profile photo" src="images/profile/sungminwoo.png">
             </td>
+			</p> -->
           </tr>
         </tbody></table>
 
@@ -67,6 +69,55 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<tr onmouseout="pcvr_stop()" onmouseover="pcvr_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='pcvr_image'>
+        <img src='images/dualfocus/dualfocus_after.png' width="160">
+      </div>
+      <img src='images/dualfocus/dualfocus_before.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function dualfocus_start() {
+        document.getElementById('dualfocus_image').style.opacity = "1";
+      }
+
+      function dualfocus_stop() {
+        document.getElementById('dualfocus_image').style.opacity = "0";
+      }
+      dualfocus_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <!-- <a href="https://dreamfusion3d.github.io/"> -->
+    <a href="https://arxiv.org/">
+      <papertitle>DualFocus: Depth from Focus with Spatio-Focal Dual Variational Constraints</papertitle>
+    </a>
+    <br>
+    <strong>Sungmin Woo</strong>,
+    Sangyoun Lee
+    <br>
+    <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
+    <em>Conference on Neural Information Processing Systems (NeurIPS) </em>, 2025
+    <br>
+    <!-- <a href="https://arxiv.org/">Paper</a>
+    /
+    <a href="https://arxiv.org/">arXiv</a>
+    /
+    <a href="https://github.com/Sungmin-Woo/DualFocus">Code</a> -->
+    Paper
+    /
+    <a href="https://arxiv.org/">arXiv</a>
+    /
+    <a href="https://github.com/Sungmin-Woo/DualFocus">Code</a>
+    <p></p>
+    <p>
+    <!-- We optimize a NeRF from scratch using a pretrained text-to-image diffusion model to do text-to-3D generative modeling. -->
+    We propose a novel Depth-from-Focus (DFF) framework that leverages the focal stack’s unique gradient patterns induced by focus variation, jointly modeling focus changes over spatial and focal dimensions.
+    </p>
+  </td>
+</tr>
+			
 <tr onmouseout="pcvr_stop()" onmouseover="pcvr_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -101,7 +152,7 @@
     <!-- <em>Preprint</em>, 2023 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font> -->
     <em>European Conference on Computer Vision (ECCV) </em>, 2024 
     <br>
-    <!-- <a href="https://arxiv.org/pdf/2311.17952.pdf">Paper</a>
+    <!-- <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00367.pdf">Paper</a>
     /
     <a href="https://arxiv.org/pdf/2407.09303L">arXiv</a>
     /
